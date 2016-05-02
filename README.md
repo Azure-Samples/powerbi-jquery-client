@@ -5,7 +5,7 @@ Sample application using the [jquery-powerbi](https://github.com/microsoft/Power
 
 1. Clone this repository:
 
-	`git clone https://github.com/Azure-Samples/powerbi-sample-client-jquery`
+	`git clone https://github.com/Azure-Samples/powerbi-jquery-client`
 	
 2. Install Dependencies:
 
@@ -16,10 +16,10 @@ Sample application using the [jquery-powerbi](https://github.com/microsoft/Power
 3. Open the `src/index.html` file in the browser or serve the files locally
 
 ## Deploy this sample to Azure
-Coming soon...
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
 ## About the code
 See: [jquery-powerbi](https://github.com/microsoft/PowerBI-JQuery) for details about usage of plugin.
 
 ## More information
-Coming soon...
+We're interested in feedback.  Open a [new issue](https://github.com/Azure-Samples/powerbi-jquery-client/issues/new) if you have requests or find bugs.
