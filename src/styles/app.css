@@ -1,0 +1,30 @@
+body {
+    padding: 2em 0;
+}
+
+.powerbi-sample {
+    margin: 0 0 3rem 0;
+    border: 2px dashed #cecece;
+    height: 500px;
+}
+.powerbi-sample iframe {
+    border: none;
+}
+#reportslist {
+    margin: 0 0 1em 0;
+}
+#reportslist li {
+    margin: 1em 0;
+}
+.reportslistdescription {
+    margin: 1em 0 0 0;
+    font-weight: bold;
+}
+.report-name {
+    display: inline-block;
+    margin: 0 1em;
+    font-weight: bold;
+}
+.checkbox {
+    margin-left: 1em;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "powerbi-embed-typescript",
+  "description": "Demonstrate embeding power bi reports without any frameworks.",
+  "main": "index.js",
+  "authors": [
+    "Matt Mazzola"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "powerbi",
+    "embed",
+    "microsoft"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "fetch": "^0.11.0",
+    "es6-promise": "^3.2.1",
+    "jquery-powerbi": "1.0.0-beta.4"
+  }
+}

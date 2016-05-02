@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Power BI - JQuery - Client</title>
+        <base path="/" />
+        
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="styles/app.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Power BI - JQuery - Client</h1>
+            <p>Demonstrate using the <a href="https://github.com/microsoft/PowerBI-JQuery" target="_blank">jquery-powerbi</a> plugin to embed visuals.</p>
+            
+            <h2>Scenarios:</h2>
+            <h3>Static: Report ID is known: 5dac7a4a-4452-46b3-99f6-a25915e0fe55</h3>
+            <div class="powerbi-sample" id="reportstatic"></div>
+            
+            <h3>Dynamic: Search reports by name, render selected</h3>
+            <p>Hint: Type 'Re' in the text field and search to find all reports that begin with 'Re'</p>
+            <form id="search-form" class="form-inline">
+                <div class="form-group">
+                    <label for="searchinput">Search</label>
+                    <input type="text" class="form-control" id="searchinput" required placeholder="Enter report name" autocomplete="off" />
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+                <button type="button" id="showAllButton" class="btn btn-success">Show All</button>
+                <div class="checkbox">
+                    <label for="filterPaneCheckbox">
+                        <input type="checkbox" name="filterPaneCheckbox" id="filterPaneCheckbox" checked="checked"> Enable filter pane when embedding report.
+                    </label>
+                </div>
+            </form>
+            
+            <p class="reportslistdescription" >Total Results: <span id="reportslistcount">0<span></p>
+            <ol id="reportslist">
+            </ol>
+            <p class="text-xs-right">
+                <button type="button" id="resetButton" class="btn btn-danger">Reset</button>
+            </p>
+            <div class="powerbi-sample" id="reportdynamic"></div>
+        </div>
+        
+        <!-- vendor -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/es6-promise/es6-promise.js"></script>
+        <script src="../bower_components/fetch/fetch.js"></script>
+        
+        <!-- lib -->
+        <script src="../node_modules/powerbi-client/dist/powerbi.js"></script>
+        <script src="../node_modules/jquery-powerbi/dist/jquery.powerbi.js"></script>
+        
+        <!-- app -->
+        <script src="app/app.js"></script>
+    </body>
+</html>
